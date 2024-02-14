@@ -1,0 +1,126 @@
+/* profile section css  */
+:root {
+    --im-bg-dark: #141D2F;
+    --lm-bg-content-dark: #1E2A47;
+    --lm-text-dark: white;
+    --lm-text-alt-dark: white;
+    --lm-shadow-xl-dark: rgba(70, 88, 109, 0.15);
+    --lm-icon-bg-dark: brightness(1000%);
+    --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+
+    --lm-bg: #F6F8FF;
+    --lm-bg-content: #FEFEFE;
+    --lm-text: #4B6A9B;
+    --lm-text-alt: #2B3442;
+    --lm-shadow-xl: rgba(70, 88, 109, 0.25);
+    --lm-icon-bg: brightness(100%);
+}
+.profile-section{
+    /* display: flex; */
+    display: none;
+    border-radius: 1.2rem;
+    margin-top: 1.5rem;
+    background-color: var(--lm-bg-content);
+    box-sizing: var(--lm-shadow-xl); 
+    justify-content: space-between;
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-pic-section{
+    display: flex;
+    justify-content: center;
+    width: 25%;  
+    padding-top: 2rem;
+}
+#profile-pic1{
+    display: none;
+    height: 10rem;
+    border-radius: 50%;
+}
+.profile-pic-section img{
+    height: 10rem;
+    border-radius: 50%;
+}
+.profile-details-section{
+    width: 75%;
+    padding: 2rem;   
+}
+.name-joining{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.name-and-userid h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--lm-text-alt);
+}
+#bio{
+    width: 70%;
+    color: var(--lm-text);
+    word-break: break;
+}
+/* followr counts section css */
+.following-bar{
+    margin: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--lm-bg);
+    border-radius: 10px;
+    text-align: center;
+    width: 95%;
+    height: 6rem;
+}
+.bar-heading > p{
+    color: var(--lm-text);
+}
+.bar-heading h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* link section css  */
+.link-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-item{
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    color: var(--lm-text);
+    align-items: center;
+    width: 50%;
+    height: 6rem;
+}
+.link-item img{
+    height: 1.2rem;
+    fill: red;
+}
+.loading-container{
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#loading-image{
+    height: 250px;
+}
+
+
+.not-found{
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#not-found-image{
+    height: 250px;
+}
+
+.active{
+    display: flex;
+}

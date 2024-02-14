@@ -1,0 +1,20 @@
+:root {
+    --im-bg-dark: #141D2F;
+    --lm-bg-content-dark: #1E2A47;
+    --lm-text-dark: white;
+    --lm-text-alt-dark: white;
+    --lm-shadow-xl-dark: rgba(70, 88, 109, 0.15);
+    --lm-icon-bg-dark: brightness(1000%);
+    --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+
+    --lm-bg: #F6F8FF;
+    --lm-bg-content: #FEFEFE;
+    --lm-text: #4B6A9B;
+    --lm-text-alt: #2B3442;
+    --lm-shadow-xl: rgba(70, 88, 109, 0.25);
+    --lm-icon-bg: brightness(100%);
+}
+
+.wrapper1{
+    background-color: var(--im-bg-dark);
+}

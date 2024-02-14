@@ -1,0 +1,75 @@
+@media (max-width:730px) {
+    .container{
+        max-width: 600px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile-pic-section{
+        display: none;
+    }
+    #profile-pic1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-joining{
+        display: flex;
+        justify-content: left;
+        gap: 30px;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    .profile-details-section{
+        /* border: 2px solid black; */
+        width: 100%;
+        padding: 20px 60px;
+    }
+}
+@media (max-width:600px) {
+    .profile-details-section{
+        padding: 10px 30px;
+    }
+}
+@media (max-width:460px) {
+    .name-joining{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #bio{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .link-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .following-bar{
+        margin: 1rem 0rem;
+        padding: 0.5rem;
+        width: 100%;
+        height: 6rem;
+    }
+    .link-section div{
+        width: 95%;
+    }
+    .link-section div p, .link-section div a{
+        width: 100%;
+    }
+    .search-box-form{
+        padding: 5px;
+    }
+    .search-box-form input{
+        font-size: 0.8rem;
+        margin-left: 0px;
+    }
+    .search-box-form #search-git-id{
+        font-size: 0.99rem;
+        padding: 5px;
+        height: 2.9rem;
+        width: 5rem;
+    }
+}

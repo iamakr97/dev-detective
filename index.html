@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="heading-container">
+                <h2 id="dev-detective-heading">DevDetective</h2>
+                <button id="switch-mode-btn">
+                    <p light-dark-title>DARK</p>
+                    <img src="./assets/images/moon-icon.svg" light-dark-icon>
+                </button>
+            </div>
+            <form class="search-box-form">
+                <img src="./assets/images/search-icon.svg">
+                <input type="text" placeholder="Enter a GitHub username..." id="placeholderr">
+                <i class="fa-solid fa-xmark" id="x-mark"></i>
+                <button id="search-git-id" type="submit">Search</button>
+            </form>
+            <div class="profile-section" id="profile--section">
+                <div class="profile-pic-section">
+                    <img src="" id="profile-pic" loading="lazy">
+                </div>
+                <div class="profile-details-section">
+                    <div class="name-joining">
+                        <img src="" id="profile-pic1" loading="lazy">
+                        <div>
+                            <div class="name-and-userid">
+                                <h2 class="text-para" id="user-id-name">Amit Ranjan</h2>
+                                <a href="" target="_blank" id="user--id">@foolishcoder97</a>
+                            </div>
+                            <p class="text-para" id="joined-data">Joined 05 May 2021</p>
+                        </div>
+                    </div>
+
+                    <p id="bio">Ex @permissionles, Ex @gumlet,
+                        Frontend Developer at @we-frame,
+                        Core Member at @aec-coding-club,
+                        Technical Expert at @gsasanso
+                    </p>
+                    <div class="following-bar text-para">
+                        <div class="repo bar-heading">
+                            <p class="text-para">Repos</p>
+                            <h3 id="repos">71</h3>
+                        </div>
+                        <div class="followers bar-heading text-para">
+                            <p class="text-para">Followers</p>
+                            <h3 id="followers-count">576</h3>
+                        </div>
+                        <div class="following bar-heading text-para">
+                            <p class="text-para">Following</p>
+                            <h3 id="following-count">146</h3>
+                        </div>
+                    </div>
+                    <div class="link-section">
+                        <div class="address link-item">
+                            <img src="./assets/images/location-icon.svg" alt="">
+                            <p class="text-para" id="location-name">Location</p>
+                        </div>
+                        <div class="website link-item">
+                            <img src="./assets/images/website-icon.svg" alt="">
+                            <a href="" class="text-para" id="web-link" target="_blank">Website Link</a>
+                        </div>
+                        <div class="twitter link-item">
+                            <img src="./assets/images/twitter-icon.svg" alt="">
+                            <p class="text-para" id="twiter-handle">twitter handle</p>
+                        </div>
+                        <div class="company link-item">
+                            <img src="./assets/images/company-icon.svg" alt="">
+                            <p class="text-para" id="company-name">company name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="loading-container" id="loading--container">
+                <img src="./assets/loading.gif" id="loading-image">
+            </div>
+            <div class="not-found" id="not-found-cnt">
+                <img src="./assets/not-found.png" id="not-found-image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
